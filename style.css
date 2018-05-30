@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+}
+.bg { 
+    background-image: url('../images/background.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}                    
+
+#as2navbar {
+background-color: white;
+margin-bottom: 50px;
+}
+
+#as2content {
+    background-color: white;
+}
+
+#maincontent {
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+#profilepic {
+margin-top: 10px;
+margin-right: 15px;
+}
+
+#firstblurb {
+    border-top: 10px solid transparent;
+    font-size: 3.0vh;
+    border-left: 10px solid transparent;
+
+}
+#secondblurb {
+    border-left: 10px solid transparent;
+}
+
+div.description{  
+    position: relative;
+    bottom: 50px;
+    width: 100%;   
+    background-color:#4aaaa5;  
+    font-family: 'tahoma';  
+    text-align: center;
+    font-size:15px;  
+    color:white;  
+    opacity:0.8;
+    filter:alpha(opacity=60);
+}  
+
+p.description_content{  
+    padding:10px;  
+    margin:0px;  
+}  
